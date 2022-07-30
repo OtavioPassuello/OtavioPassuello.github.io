@@ -1,0 +1,157 @@
+body
+ {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+
+    text-align: left;
+    padding: 10em;
+    color: rgb(161, 148, 219);
+    display: flex;
+
+}
+
+
+
+#card {
+    width: 100%;
+
+    padding: 20px;
+    outline: 5px solid #000000;
+
+    background-color: #020c36;
+    border-radius: 10px;
+
+    display: flex;
+    gap: 20px;
+}
+
+#card #photo img {
+    width: 200px;
+    height: 200px;
+
+    padding: 3px;
+    outline: 3px solid #0b0fc9;
+    border-radius: 5%;
+
+}
+
+#card h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.9em;
+  text-align: justify;
+}
+
+#card #user h3 {
+
+  font-weight: 500;
+  font-size: 1.6em;
+  display: flex;
+  text-align: justify;
+
+  
+}
+
+
+#comp {
+
+  text-align: left;
+  font-weight: 700;
+  font-size: 40%;
+
+}
+
+#comp h1 {
+
+  text-align: left;
+  font-weight: 900;
+  font-size: 400%;
+  color: rgb(41, 30, 148);
+
+
+}
+
+#eu {
+
+  width: 100%;
+
+  padding: 20px;
+  outline: 5px solid #000000;
+
+  background-color: #020c36;
+  border-radius: 10px;
+
+  display: flex;
+  gap: 30px;
+
+}
+
+#eu h2 {
+
+  font-weight: 500;
+  font-size: 100%;
+  text-align: left;
+  color: rgb(135, 125, 180);
+
+}
+
+#eu h3 {
+
+  font-weight: 500;
+  font-size: 1.6em;
+  display: flex;
+  text-align: left
+
+}
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap");
+
+.banner {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.banner .content {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner .content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5.5em;
+  text-transform: uppercase;
+  color: #ffff;
+}
+
+.banner .content p {
+  font-size: 1.5em;
+  color: #ffff;
+}
+
+.banner .content img {
+  width: 40px;
+  height: 40px;
+}
