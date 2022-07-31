@@ -155,3 +155,32 @@ section {
   width: 40px;
   height: 40px;
 }
+
+@media only screen and (max-width: 800px) {
+    body {
+        padding: 50px 0;
+    }
+
+    #card {
+        flex-direction: column;
+
+        width: 80%;
+    }
+
+    #card #photo {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    margin: auto;
+
+    background-color: #18191c;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+#error a {
+    margin: 20px auto 0 auto;
+}
